@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  color: blue;
+  background-color: #eeaeca;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  border-radius: 20px;
+  margin-left: 500px;
+  width: 500px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.question-card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.question-card.highlighted {
+  background-color: #ffcc00;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
+
+.results {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  display: flex;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.theme {
+  margin-left: 10px;
+}
+
+.highlight {
+  margin-left: 10px;
+}
+
+
+.restart{
+  margin-left: 160px;
+}

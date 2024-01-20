@@ -10,6 +10,7 @@ body {
   font-family: 'Arial', sans-serif;
   border-radius: 20px;
   margin-left: 500px;
+  margin-top: 100px;
   width: 500px;
 }
 
@@ -63,6 +64,7 @@ button {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   display: flex;
   margin-top: 10px;
+  border-radius: 10px;
 }
 
 button:hover {
@@ -70,14 +72,14 @@ button:hover {
 }
 
 .theme {
-  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .highlight {
-  margin-left: 10px;
+  margin-top: 10px;
 }
 
-
-.restart{
-  margin-left: 160px;
+.restart {
+  margin-top: 10px;
+  margin-left: 155px;
 }
